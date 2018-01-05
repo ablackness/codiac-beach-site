@@ -24467,6 +24467,11 @@ var App = function (_React$Component) {
             { className: 'display-3 text-center' },
             'Codiac Beach'
           )
+        ),
+        _react2.default.createElement(
+          'p',
+          { className: 'h3 text-center' },
+          'NABTRA ___ Developing Software to Save the World'
         )
       );
     }

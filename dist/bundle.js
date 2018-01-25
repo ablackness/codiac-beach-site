@@ -24458,20 +24458,62 @@ var App = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'container' },
+        null,
         _react2.default.createElement(
           'div',
-          { className: 'jumbotron' },
+          { style: { backgroundColor: 'rgb(117, 163, 151)' } },
           _react2.default.createElement(
-            'h1',
-            { className: 'display-3 text-center' },
-            'Codiac Beach'
+            'ul',
+            { style: { display: 'block', borderBottom: 'white solid 1px' } },
+            _react2.default.createElement(
+              'li',
+              { className: 'headerList' },
+              'PHONE'
+            ),
+            _react2.default.createElement(
+              'li',
+              { className: 'headerList' },
+              'EMAIL'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            null,
+            _react2.default.createElement('img', { style: { marginLeft: '12%', paddingTop: 15, paddingBottom: 15, display: 'inline-block' }, src: './assets/logo-bw.png' }),
+            _react2.default.createElement(
+              'ul',
+              { style: { display: 'inline-block', paddingLeft: '40%' } },
+              _react2.default.createElement(
+                'li',
+                { className: 'headerList' },
+                'Home'
+              ),
+              _react2.default.createElement(
+                'li',
+                { className: 'headerList' },
+                'About'
+              ),
+              _react2.default.createElement(
+                'li',
+                { className: 'headerList' },
+                'Contact'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'banner' },
+          _react2.default.createElement(
+            'h4',
+            { className: 'bannerText' },
+            'Custom Software Solutions'
           )
         ),
         _react2.default.createElement(
           'p',
           { className: 'h3 text-center' },
-          'NABTRA ___ Developing Software to Save the World'
+          'MANTRA ___ Developing Software to Save the World'
         )
       );
     }

@@ -24461,58 +24461,71 @@ var App = function (_React$Component) {
         null,
         _react2.default.createElement(
           'div',
-          { style: { backgroundColor: 'rgb(117, 163, 151)' } },
+          { className: 'header' },
           _react2.default.createElement(
             'ul',
-            { style: { display: 'block', borderBottom: 'white solid 1px' } },
+            { className: 'contactInfo' },
             _react2.default.createElement(
               'li',
               { className: 'headerList' },
-              'PHONE'
+              '555-555-5555'
             ),
             _react2.default.createElement(
               'li',
               { className: 'headerList' },
-              'EMAIL'
+              'matt@codiacbeach.com'
             )
           ),
           _react2.default.createElement(
             'div',
-            null,
-            _react2.default.createElement('img', { style: { marginLeft: '12%', paddingTop: 15, paddingBottom: 15, display: 'inline-block' }, src: './assets/logo-bw.png' }),
+            { className: 'banner' },
+            _react2.default.createElement('img', { className: 'logo', src: './assets/logo-bw.png' }),
+            _react2.default.createElement(
+              'span',
+              { className: 'bannerText' },
+              'Custom Software Solutions'
+            ),
             _react2.default.createElement(
               'ul',
-              { style: { display: 'inline-block', paddingLeft: '40%' } },
+              { className: 'navLinks' },
               _react2.default.createElement(
                 'li',
                 { className: 'headerList' },
-                'Home'
+                _react2.default.createElement(
+                  'a',
+                  { href: '#' },
+                  'Home'
+                )
               ),
               _react2.default.createElement(
                 'li',
                 { className: 'headerList' },
-                'About'
+                _react2.default.createElement(
+                  'a',
+                  { href: '#' },
+                  'About'
+                )
               ),
               _react2.default.createElement(
                 'li',
                 { className: 'headerList' },
-                'Contact'
+                _react2.default.createElement(
+                  'a',
+                  { href: '#' },
+                  'Contact'
+                )
               )
             )
           )
         ),
         _react2.default.createElement(
           'div',
-          { className: 'banner' },
-          _react2.default.createElement(
-            'h4',
-            { className: 'bannerText' },
-            'Custom Software Solutions'
-          )
+          null,
+          _react2.default.createElement('img', { className: 'codeImage', src: './assets/code.jpg', alt: 'code' })
         ),
         _react2.default.createElement(
           'p',
-          { className: 'h3 text-center' },
+          { className: 'h3 text-center mantra' },
           'MANTRA ___ Developing Software to Save the World'
         )
       );

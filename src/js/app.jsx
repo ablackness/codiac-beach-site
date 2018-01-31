@@ -5,16 +5,19 @@ export default class App extends React.Component {
     return (
       <div>
         <div className='header'>
-          <ul className='contactInfo'>
-            <li className='headerList'>555-555-5555</li>
-            <li className='headerList'>matt@codiacbeach.com</li>
+          <ul className='contact'>
+            <li className='contactItem'>555-555-5555</li>
+            <li className='contactItem'>matt@codiacbeach.com</li>
           </ul>
           <div className='banner'>
             <img className='logo' src='./assets/logo-bw.png'/>
-            <ul className='navLinks'>
-              <li className='headerList'><a href='#'>Home</a></li>
-              <li className='headerList'><a href='#'>About</a></li>
-              <li className='headerList'><a href='#'>Contact</a></li>
+            <ul className='nav'>
+              <li className='navItem'><a href='#'>Home</a></li>
+              <li className='navItem'><a href='#'>About Us</a></li>
+              <li className='navItem'><a href='#'>Services</a></li>
+              <li className='navItem'><a href='#'>Industries</a></li>
+              <li className='navItem'><a href='#'>Careers</a></li>
+              <li className='navItem'><a href='#'>Contact</a></li>
             </ul>
           </div>
         </div>

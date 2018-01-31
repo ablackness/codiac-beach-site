@@ -2,17 +2,18 @@ body {
     background-color: whitesmoke;
 }
 
-.contactInfo {
+.contact {
     display: block;
     margin: 0;
     float: left;
     padding-left: 2%;
 }
 
-.navLinks {
-    padding-left: 0;
-    float: right;
-    margin: 0;
+.contactItem {
+    display: inline-block;
+    padding-right: 15px;
+    color: slategray;
+    font-size: 1.2em;
 }
 
 .logo {
@@ -20,6 +21,20 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
     display: inline-block;
+}
+
+.nav {
+    padding-left: 0;
+    padding-top: 44.5px;
+    float: right;
+    margin: 0;
+}
+
+.navItem {
+    display: inline-block;
+    padding-right: 15px;
+    color: slategray;
+    font-size: 1.2em;
 }
 
 .banner {
@@ -34,13 +49,6 @@ body {
     text-align: center;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
-}
-
-.headerList {
-    display: inline-block;
-    padding-right: 15px;
-    color: slategray;
-    font-size: 1.2em;
 }
 
 a {
@@ -71,10 +79,15 @@ a:hover {
     background-color: rgba(226, 224, 224, 0.534);
 }
 
-.midSidebar {
-    background-color: rgba(226, 224, 224, 0.534)
-}
-
 .pageText {
     font-size: 1.25em;
+}
+
+@media (max-width: 800px) {
+    .nav {
+        display: block;
+        float: none;
+        padding-top: 0;
+        text-align: center;
+    }
 }

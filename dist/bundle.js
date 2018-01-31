@@ -24464,15 +24464,15 @@ var App = function (_React$Component) {
           { className: 'header' },
           _react2.default.createElement(
             'ul',
-            { className: 'contactInfo' },
+            { className: 'contact' },
             _react2.default.createElement(
               'li',
-              { className: 'headerList' },
+              { className: 'contactItem' },
               '555-555-5555'
             ),
             _react2.default.createElement(
               'li',
-              { className: 'headerList' },
+              { className: 'contactItem' },
               'matt@codiacbeach.com'
             )
           ),
@@ -24482,10 +24482,10 @@ var App = function (_React$Component) {
             _react2.default.createElement('img', { className: 'logo', src: './assets/logo-bw.png' }),
             _react2.default.createElement(
               'ul',
-              { className: 'navLinks' },
+              { className: 'nav' },
               _react2.default.createElement(
                 'li',
-                { className: 'headerList' },
+                { className: 'navItem' },
                 _react2.default.createElement(
                   'a',
                   { href: '#' },
@@ -24494,16 +24494,43 @@ var App = function (_React$Component) {
               ),
               _react2.default.createElement(
                 'li',
-                { className: 'headerList' },
+                { className: 'navItem' },
                 _react2.default.createElement(
                   'a',
                   { href: '#' },
-                  'About'
+                  'About Us'
                 )
               ),
               _react2.default.createElement(
                 'li',
-                { className: 'headerList' },
+                { className: 'navItem' },
+                _react2.default.createElement(
+                  'a',
+                  { href: '#' },
+                  'Services'
+                )
+              ),
+              _react2.default.createElement(
+                'li',
+                { className: 'navItem' },
+                _react2.default.createElement(
+                  'a',
+                  { href: '#' },
+                  'Industries'
+                )
+              ),
+              _react2.default.createElement(
+                'li',
+                { className: 'navItem' },
+                _react2.default.createElement(
+                  'a',
+                  { href: '#' },
+                  'Careers'
+                )
+              ),
+              _react2.default.createElement(
+                'li',
+                { className: 'navItem' },
                 _react2.default.createElement(
                   'a',
                   { href: '#' },

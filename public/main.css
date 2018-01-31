@@ -4,12 +4,19 @@ body {
 
 .contactInfo {
     display: block;
-    border-bottom: slategray solid 1px;
+    margin: 0;
+    float: left;
+    padding-left: 2%;
+}
+
+.navLinks {
+    padding-left: 0;
+    float: right;
     margin: 0;
 }
 
 .logo {
-    margin-left: 10%;
+    margin-left: 5%;
     padding-top: 15px;
     padding-bottom: 15px;
     display: inline-block;
@@ -17,19 +24,16 @@ body {
 
 .banner {
     border-bottom: slategray solid 1px;
+    border-top: slategray solid 1px;
+    clear: both;
 }
 
-.bannerText {
-   padding-top: 2em;
-   padding-left: 10px;
-   font-size: 1.2em;
-   color: slategray;
-}
-
-.navLinks {
-    float: right;
-    padding-top: 2em;
-    padding-left: 0;
+.headline {
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
 }
 
 .headerList {
@@ -58,6 +62,19 @@ a:hover {
     padding-top: 10px;
 }
 
-.mantra {
-    clear: left;
+/* .sidebar {
+    background-color: slategray;
+} */
+
+.midPage {
+    padding-top: 3%;
+    background-color: rgba(226, 224, 224, 0.534);
+}
+
+.midSidebar {
+    background-color: rgba(226, 224, 224, 0.534)
+}
+
+.pageText {
+    font-size: 1.25em;
 }

@@ -11,7 +11,6 @@ export default class App extends React.Component {
           </ul>
           <div className='banner'>
             <img className='logo' src='./assets/logo-bw.png'/>
-            <span className='bannerText'>Custom Software Solutions</span>
             <ul className='navLinks'>
               <li className='headerList'><a href='#'>Home</a></li>
               <li className='headerList'><a href='#'>About</a></li>
@@ -19,11 +18,42 @@ export default class App extends React.Component {
             </ul>
           </div>
         </div>
-        <div>
-          <img className='codeImage' src='./assets/code.jpg' alt='code'/>
+
+        <div className='row'>
+          <div className='col-2 sidebar'></div>
+          <div className='col-8'>
+            <div className='headline'>Amazing Custom Software Solutions</div>
+            <p className='pageText'>Codiac Beach is a software company for the little guy. We can cater to your needs
+              and customize software however your heart desires.</p>
+            <p className='pageText'>Whatever your need is, we will be happy to talk about how we can make you successful</p>
+          </div>
+          <div className='col-2 sidebar'></div>
+        </div>   
+
+        <div className='midPage row'>
+        <div className='col-2'></div>
+          <div className='col-4'>
+            <h4>Something Interesting</h4>
+            <p className='pageText'>more details about said interesting thing</p>
+          </div>
+          <div className='col-4'>
+            <h4>Something Interesting</h4>
+            <p className='pageText'>more details about said interesting thing</p>
+          </div>
+          <div className='col-2'></div>
         </div>
-        
-        <p className='h3 text-center mantra'>MANTRA ___ Developing Software to Save the World</p>  
+        <div className='midPage row'>
+        <div className='col-2'></div>
+          <div className='col-4'>
+            <h4>Something Interesting</h4>
+            <p className='pageText'>more details about said interesting thing</p>
+          </div>
+          <div className='col-4'>
+            <h4>Something Interesting</h4>
+            <p className='pageText'>more details about said interesting thing</p>
+          </div>
+          <div className='col-2'></div>
+        </div>
       </div>
     );
   }

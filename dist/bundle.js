@@ -24481,11 +24481,6 @@ var App = function (_React$Component) {
             { className: 'banner' },
             _react2.default.createElement('img', { className: 'logo', src: './assets/logo-bw.png' }),
             _react2.default.createElement(
-              'span',
-              { className: 'bannerText' },
-              'Custom Software Solutions'
-            ),
-            _react2.default.createElement(
               'ul',
               { className: 'navLinks' },
               _react2.default.createElement(
@@ -24520,13 +24515,96 @@ var App = function (_React$Component) {
         ),
         _react2.default.createElement(
           'div',
-          null,
-          _react2.default.createElement('img', { className: 'codeImage', src: './assets/code.jpg', alt: 'code' })
+          { className: 'row' },
+          _react2.default.createElement('div', { className: 'col-2 sidebar' }),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-8' },
+            _react2.default.createElement(
+              'div',
+              { className: 'headline' },
+              'Amazing Custom Software Solutions'
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'pageText' },
+              'Codiac Beach is a software company for the little guy. We can cater to your needs and customize software however your heart desires.'
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'pageText' },
+              'Whatever your need is, we will be happy to talk about how we can make you successful'
+            )
+          ),
+          _react2.default.createElement('div', { className: 'col-2 sidebar' })
         ),
         _react2.default.createElement(
-          'p',
-          { className: 'h3 text-center mantra' },
-          'MANTRA ___ Developing Software to Save the World'
+          'div',
+          { className: 'midPage row' },
+          _react2.default.createElement('div', { className: 'col-2' }),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-4' },
+            _react2.default.createElement(
+              'h4',
+              null,
+              'Something Interesting'
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'pageText' },
+              'more details about said interesting thing'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-4' },
+            _react2.default.createElement(
+              'h4',
+              null,
+              'Something Interesting'
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'pageText' },
+              'more details about said interesting thing'
+            )
+          ),
+          _react2.default.createElement('div', { className: 'col-2' })
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'midPage row' },
+          _react2.default.createElement('div', { className: 'col-2' }),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-4' },
+            _react2.default.createElement(
+              'h4',
+              null,
+              'Something Interesting'
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'pageText' },
+              'more details about said interesting thing'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-4' },
+            _react2.default.createElement(
+              'h4',
+              null,
+              'Something Interesting'
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'pageText' },
+              'more details about said interesting thing'
+            )
+          ),
+          _react2.default.createElement('div', { className: 'col-2' })
         )
       );
     }

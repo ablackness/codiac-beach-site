@@ -88,6 +88,9 @@ a:hover {
         display: block;
         float: none;
         padding-top: 0;
+    }
+
+    .banner {
         text-align: center;
     }
 }

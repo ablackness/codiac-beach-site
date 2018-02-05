@@ -14,7 +14,16 @@ export default class App extends React.Component {
             <ul className='nav'>
               <li className='navItem'><a href='#'>Home</a></li>
               <li className='navItem'><a href='#'>About Us</a></li>
-              <li className='navItem'><a href='#'>Services</a></li>
+              <li className='navItem'>
+                <div className='dropdown'>
+                  <a href='#' className='topItem'>Services</a>
+                  <div className='dropdownContent'>
+                    <a href='#'>Software</a>
+                    <a href='#'>Websites</a>
+                    <a href='#'>Apps</a>
+                  </div>
+                </div>
+              </li>
               <li className='navItem'><a href='#'>Industries</a></li>
               <li className='navItem'><a href='#'>Careers</a></li>
               <li className='navItem'><a href='#'>Contact</a></li>

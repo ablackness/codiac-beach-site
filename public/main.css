@@ -23,6 +23,12 @@ body {
     display: inline-block;
 }
 
+.banner {
+    border-bottom: slategray solid 1px;
+    border-top: slategray solid 1px;
+    clear: both;
+}
+
 .nav {
     padding-left: 0;
     padding-top: 44.5px;
@@ -32,15 +38,46 @@ body {
 
 .navItem {
     display: inline-block;
-    padding-right: 15px;
+    padding-right: 25px;
     color: slategray;
     font-size: 1.2em;
 }
 
-.banner {
-    border-bottom: slategray solid 1px;
-    border-top: slategray solid 1px;
-    clear: both;
+.topItem {
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownContent {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: whitesmoke;
+}
+
+.dropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.dropdown:hover .topItem {
+    color: goldenrod;
+}
+
+.dropdownContent a:hover {
+    background-color: rgba(226, 224, 224, 0.534);
 }
 
 .headline {
@@ -53,10 +90,6 @@ body {
 
 a {
     color: slategray;
-}
-
-a:visited {
-    color: goldenrod;
 }
 
 a:hover {

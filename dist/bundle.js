@@ -24505,9 +24505,32 @@ var App = function (_React$Component) {
                 'li',
                 { className: 'navItem' },
                 _react2.default.createElement(
-                  'a',
-                  { href: '#' },
-                  'Services'
+                  'div',
+                  { className: 'dropdown' },
+                  _react2.default.createElement(
+                    'a',
+                    { href: '#', className: 'topItem' },
+                    'Services'
+                  ),
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'dropdownContent' },
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      'Software'
+                    ),
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      'Websites'
+                    ),
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      'Apps'
+                    )
+                  )
                 )
               ),
               _react2.default.createElement(

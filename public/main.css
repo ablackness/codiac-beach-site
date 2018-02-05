@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke;
+    background-color: whitesmoke;   
 }
 
 .contact {
@@ -68,6 +68,10 @@ body {
     display: block;
 }
 
+.navItem:hover > a {
+    color: goldenrod;
+}
+
 .dropdown:hover .dropdownContent {
     display: block;
 }
@@ -94,18 +98,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: slategray;
 }
-
-.codeImage {
-    float:left;
-    padding-left: 5%;
-    padding-top: 10px;
-}
-
-/* .sidebar {
-    background-color: slategray;
-} */
 
 .midPage {
     padding-top: 3%;
@@ -114,6 +107,30 @@ a:hover {
 
 .pageText {
     font-size: 1.25em;
+}
+
+.content {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.footer {
+    position: relative;
+
+    /* position: sticky;
+    bottom: 0; */
+    height: 50px;
+    /* width: 100%; */
+    background: linear-gradient(rgba(245, 245, 245, 1), rgba(218, 165, 32, 1));
+}
+
+.footerText {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 3px;
+    margin: 0;
 }
 
 @media (max-width: 800px) {

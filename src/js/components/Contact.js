@@ -12,7 +12,7 @@ export default class Contact extends React.Component{
                     <div className='col-2 sidebar'></div>
                     <div className='col-8'>
                         <div className='headline'>Contact</div>
-                        <p className='pageText'>Please feel free to reach out to us with an inquiries at matt@codiacbeach.com.</p>
+                        <p className='pageText'>Please feel free to reach out to us with any inquiries at matt@codiacbeach.com.</p>
                     </div>
                     <div className='col-2 sidebar'></div>
                 </div> 

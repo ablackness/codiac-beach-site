@@ -7,6 +7,7 @@ import {
  import Home from './components/Home';
  import About from './components/About';
  import Contact from './components/Contact';
+ import Careers from './components/Careers';
 
 export default class App extends React.Component {
   render() {
@@ -42,7 +43,7 @@ export default class App extends React.Component {
                   </div>
                 </div>
               </li>
-              <li className='navItem'><Link to='#'>Careers</Link></li>
+              <li className='navItem'><Link to='/careers'>Careers</Link></li>
               <li className='navItem'><Link to='/contact'>Contact</Link></li>
             </ul>
           </div>
@@ -52,6 +53,7 @@ export default class App extends React.Component {
           <Route exact path='/' component={Home}/>
           <Route path='/about' component={About}/>
           <Route path='/contact' component={Contact}/>
+          <Route path='/careers' component={Careers}/>
         </article>
       
         <footer className='footer col-12'>
